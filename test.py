@@ -9,8 +9,6 @@ tokenizer = GPT2TokenizerFast.from_pretrained("gpt2")
 import openai
 from openai.embeddings_utils import get_embedding
 
-openai.api_key = "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"
-
 from azure.kusto.data import KustoClient, KustoConnectionStringBuilder, ClientRequestProperties
 from azure.kusto.data.exceptions import KustoServiceError
 from azure.kusto.data.helpers import dataframe_from_result_table
